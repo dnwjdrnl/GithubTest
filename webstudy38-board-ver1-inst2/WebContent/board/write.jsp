@@ -18,7 +18,8 @@
      <div class="btnArea">
      <button type="submit" class="btn" >확인</button>  
      <button type="reset" class="btn" >취소</button>   
-    </div>  
+    </div> 
+    hello 
   </form>
 
 

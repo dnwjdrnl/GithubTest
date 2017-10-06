@@ -1,0 +1,70 @@
+.container{
+		width : 100%; 
+		border: 1px solid black;
+		margin-left: auto;
+		margin-right: auto; /* 좌우 여백을 동일하게 하여 중앙정렬  */
+	}
+	.header{
+		padding: 10px;
+		height: 70px;
+		border-bottom: 1px solid black;
+	}
+	.left{
+		padding: 5px;
+		height: 500px;
+		width: 20%;
+		float: left;
+	}
+	.main{
+		padding: 10px;
+		height: 500px;
+		border-left:  1px solid black;
+		float: left;
+	}
+	.footer{
+		padding: 5px;
+		height: 70px;
+		border-top: 1px solid black; 
+		clear: both; /*  float 속성 요소 아래 배치하기 위해 
+							float 속성 초기화시킨다   */							
+	}
+	.header,.footer{
+		text-align: center;
+	}
+	table,th,td {
+		border: 1px solid black;
+	}
+	table {
+		border-collapse: collapse; 
+	}
+	th,td{
+		padding: 10px;
+	}
+	.listTable,.registerTable,.detailTable,.cartTable{
+		margin-left: 300px;
+		margin-top:20px;
+		text-align: center;
+	}
+	.loginTable{
+		margin: auto;
+		text-align: center;
+	}
+	/* 한번도 클릭하지 않은 링크    */
+	a:LINK{ 
+		color: #888; 
+		text-decoration: none;
+	}
+	/* 마우스 오버시 색상 변경 */
+	a:HOVER {
+		color:#ffcc00;
+		text-decoration: none;
+	}
+	/* 한번 이상 방문한 링크 색상 및 언더라인 생기지 않게 함 */
+	a:VISITED {
+		color:#FAAC58;
+		text-decoration: none;
+	}
+	.cartTable caption{
+		padding-bottom: 15px;		
+	}
+	
